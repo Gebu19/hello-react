@@ -1,13 +1,15 @@
 
 import './App.css'
 import Greetings from './components/Greeting'
+import User from './components/User'
 function App() {
   
 
   return (
     <>
       <div className='card'> 
-        <Greetings message='This content is rendered on the browser'/> 
+        <Greetings/> 
+        <User name='Aung Chan Myint'/>
       </div>
     </>
   )

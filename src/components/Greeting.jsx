@@ -1,9 +1,10 @@
 import "../App.css" 
 function Greetings({message}){
     return(
-        <>
-            <h2>{message}</h2>
-        </>
+        <div>
+            <h1>Hello, React!</h1>
+            <p>{message}</p>
+        </div>
     );
 }
 export default Greetings;
